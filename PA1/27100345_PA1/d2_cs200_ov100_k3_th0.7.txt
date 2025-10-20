@@ -1,0 +1,60 @@
+Chunk Size: 200, Overlap: 100, Top K: 3
+Context: Tristan da Cunha is part of the British overseas territory of Saint Helena, Ascension and Tristan da Cunha. This includes Saint Helena and equatorial Ascension Island some 3,730 kilometres (2,318 mi) to the north of Tristan. The island has a population of 267 as of January 2016.
+Question: What is the population of the island?
+Predicted Answer: 267
+True Answer: 267
+--------------------------------------------------------------------------------
+Chunk Size: 200, Overlap: 100, Top K: 3
+Context: The history of pubs can be traced back to Roman taverns, through the Anglo-Saxon alehouse to the development of the modern tied house system in the 19th century.
+Question: What Roman businesses were analogous to modern day pubs?
+Predicted Answer: Taverns
+True Answer: taverns
+--------------------------------------------------------------------------------
+Chunk Size: 200, Overlap: 100, Top K: 3
+Context: The Community Tool Box is a public service of the University maintained by the Work Group for Community Health and Development. It is a free, online resource that contains more than 7,000 pages of practical information for promoting community health and development, and is a global resource for both professionals and grassroots groups engaged in the work of community health and development.
+Question: Where can the Community Tool Box be found?
+Predicted Answer: Online
+True Answer: online
+--------------------------------------------------------------------------------
+Chunk Size: 200, Overlap: 100, Top K: 3
+Context: The name Nigeria was taken from the Niger River running through the country. This name was allegedly coined in the late 19th century by British journalist Flora Shaw, she was inspired by the name of the river, in preference to terms such as "Central Sudan". The origin of the name ''Nigeria'' came from the name of the Niger River. The word ( Niger )  is an alteration of the Tuareg name egerew n-igerewen used by inhabitants along the middle reaches of the river around Timbuktu prior to 19th-century European colonialism. Egerew n-igerewen means River of the Rivers.
+Question: Which river reaches Timbuktu?
+Predicted Answer: Niger
+True Answer: Niger
+--------------------------------------------------------------------------------
+Chunk Size: 200, Overlap: 100, Top K: 3
+Context: New York City is supplied with drinking water by the protected Catskill Mountains watershed. As a result of the watershed's integrity and undisturbed natural water filtration system, New York is one of only four major cities in the United States the majority of whose drinking water is pure enough not to require purification by water treatment plants. The Croton Watershed north of the city is undergoing construction of a US$3.2 billion water purification plant to augment New York City's water supply by an estimated 290 million gallons daily, representing a greater than 20% addition to the city's current availability of water. The ongoing expansion of New York City Water Tunnel No. 3, an integral part of the New York City water supply system, is the largest capital construction project in the city's history.
+Question: What percent increase in water supply will the city see after the Croton Watershed plant is finished?
+Predicted Answer: I don't know
+True Answer: 20%
+--------------------------------------------------------------------------------
+Chunk Size: 200, Overlap: 100, Top K: 3
+Context: President Franklin D. Roosevelt promoted a "good neighbor" policy that sought better relations with Mexico. In 1935 a federal judge ruled that three Mexican immigrants were ineligible for citizenship because they were not white, as required by federal law. Mexico protested, and Roosevelt decided to circumvent the decision and make sure the federal government treated Hispanics as white. The State Department, the Census Bureau, the Labor Department, and other government agencies therefore made sure to uniformly classify people of Mexican descent as white. This policy encouraged the League of United Latin American Citizens in its quest to minimize discrimination by asserting their whiteness.
+Question: In what year did a federal judge say that three immigrants from Mexico were not eligible to be citizens because of their race?
+Predicted Answer: 1935
+True Answer: 1935
+--------------------------------------------------------------------------------
+Chunk Size: 200, Overlap: 100, Top K: 3
+Context: Following the Islamic Conquest of Persia (Iran), there were important changes in the role of the different dialects within the Persian Empire. The old prestige form of Middle Iranian, also known as Pahlavi, was replaced by a new standard dialect called Dari as the official language of the court. The name Dari comes from the word darbâr (دربار), which refers to the royal court, where many of the poets, protagonists, and patrons of the literature flourished. The Saffarid dynasty in particular was the first in a line of many dynasties to officially adopt the new language in 875 CE. Dari may have been heavily influenced by regional dialects of eastern Iran, whereas the earlier Pahlavi standard was based more on western dialects. This new prestige dialect became the basis of Standard New Persian. Medieval Iranian scholars such as Abdullah Ibn al-Muqaffa (8th century) and Ibn al-Nadim (10th century) associated the term "Dari" with the eastern province of Khorasan, while they used the term "Pahlavi" to describe the dialects of the northwestern areas between Isfahan and Azerbaijan, and "Pârsi" ("Persian" proper) to describe the Dialects of Fars. They also noted that the unofficial language of the royalty itself was yet another dialect, "Khuzi", associated with the western province of Khuzestan.
+Question: What was the first dynasty to use Dari?
+Predicted Answer: I don't know
+True Answer: Saffarid
+--------------------------------------------------------------------------------
+Chunk Size: 200, Overlap: 100, Top K: 3
+Context: In contemporary society, adolescents also face some risks as their sexuality begins to transform. While some of these, such as emotional distress (fear of abuse or exploitation) and sexually transmitted infections/diseases (STIs/STDs), including HIV/AIDS, are not necessarily inherent to adolescence, others such as teenage pregnancy (through non-use or failure of contraceptives) are seen as social problems in most western societies. One in four sexually active teenagers will contract an STI. Adolescents in the United States often chose "anything but intercourse" for sexual activity because they mistakenly believe it reduces the risk of STIs. Across the country, clinicians report rising diagnoses of herpes and human papillomavirus (HPV), which can cause genital warts, and is now thought to affect 15 percent of the teen population. Girls 15 to 19 have higher rates of gonorrhea than any other age group. One-quarter of all new HIV cases occur in those under the age of 21. Multrine also states in her article that according to a March survey by the Kaiser Family Foundation, eighty-one percent of parents want schools to discuss the use of condoms and contraception with their children. They also believe students should be able to be tested for STIs. Furthermore, teachers want to address such topics with their students. But, although 9 in 10 sex education instructors across the country believe that students should be taught about contraceptives in school, over one quarter report receiving explicit instructions from school boards and administrators not to do so. According to anthropologist Margaret Mead, the turmoil found in adolescence in Western society has a cultural rather than a physical cause; they reported that societies where young women engaged in free sexual activity had no such adolescent turmoil.
+Question: Girls ages 15 to 19 have higher rates of what STD than any other age group?
+Predicted Answer: Gonorrhea
+True Answer: gonorrhea
+--------------------------------------------------------------------------------
+Chunk Size: 200, Overlap: 100, Top K: 3
+Context: Charles "Wag" Bennett, one of the judges at the 1966 competition, was impressed with Schwarzenegger and he offered to coach him. As Schwarzenegger had little money, Bennett invited him to stay in his crowded family home above one of his two gyms in Forest Gate, London, England. Yorton's leg definition had been judged superior, and Schwarzenegger, under a training program devised by Bennett, concentrated on improving the muscle definition and power in his legs. Staying in the East End of London helped Schwarzenegger improve his rudimentary grasp of the English language. Also in 1966, Schwarzenegger had the opportunity to meet childhood idol Reg Park, who became his friend and mentor. The training paid off and, in 1967, Schwarzenegger won the title for the first time, becoming the youngest ever Mr. Universe at the age of 20. He would go on to win the title a further three times. Schwarzenegger then flew back to Munich, training for four to six hours daily, attending business school and working in a health club (Rolf Putziger's gym where he worked and trained from 1966–1968), returning in 1968 to London to win his next Mr. Universe title. He frequently told Roger C. Field, his English coach and friend in Munich at that time, "I'm going to become the greatest actor!"
+Question: Which part of his body did Schwarzenegger work to develop with Coach Bennett?
+Predicted Answer: Legs
+True Answer: legs
+--------------------------------------------------------------------------------
+Chunk Size: 200, Overlap: 100, Top K: 3
+Context: Jeffrey Long and Rick Kittles give a long critique of the application of FST to human populations in their 2003 paper "Human Genetic Diversity and the Nonexistence of Biological Races". They find that the figure of 85% is misleading because it implies that all human populations contain on average 85% of all genetic diversity. They claim that this does not correctly reflect human population history, because it treats all human groups as independent. A more realistic portrayal of the way human groups are related is to understand that some human groups are parental to other groups and that these groups represent paraphyletic groups to their descent groups. For example, under the recent African origin theory the human population in Africa is paraphyletic to all other human groups because it represents the ancestral group from which all non-African populations derive, but more than that, non-African groups only derive from a small non-representative sample of this African population. This means that all non-African groups are more closely related to each other and to some African groups (probably east Africans) than they are to others, and further that the migration out of Africa represented a genetic bottleneck, with much of the diversity that existed in Africa not being carried out of Africa by the emigrating groups. This view produces a version of human population movements that do not result in all human populations being independent; but rather, produces a series of dilutions of diversity the further from Africa any population lives, each founding event representing a genetic subset of its parental population. Long and Kittles find that rather than 85% of human genetic diversity existing in all human populations, about 100% of human diversity exists in a single African population, whereas only about 70% of human genetic diversity exists in a population derived from New Guinea. Long and Kittles argued that this still produces a global human population that is genetically homogeneous compared to other mammalian populations.
+Question: What do Long and Kittles think of the implication that human populations contain on average 85% of all genetic diversity?
+Predicted Answer: Misleading
+True Answer: misleading
+--------------------------------------------------------------------------------
