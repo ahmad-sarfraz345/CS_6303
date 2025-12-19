@@ -2,6 +2,9 @@ import pandas as pd
 import tiktoken
 from datasets import load_dataset
 import sys
+import os
+from scipy import stats
+os.environ["HF_HOME"] = "D:/coding/huggingface_cache"
 
 def count_tokens(text, tokenizer):
     """Returns the number of tokens in a text string."""
@@ -109,3 +112,45 @@ summary_df = summary_df.sort_values(by='Percentage_Increase_vs_ENG')
 
 # This is the key table for your slide
 print(summary_df.to_string(index=False))
+
+# --- 5. STATISTICAL SIGNIFICANCE TEST (T-TEST) ---
+print("\n--- Statistical Significance Testing (Paired T-Test vs. English) ---")
+print("Null Hypothesis: Mean token count is equal to English")
+print("Alternative Hypothesis: Mean token count is different from English\n")
+
+ttest_results = []
+baseline_tokens_series = df['tokens_eng']
+
+for key in languages_to_compare.keys():
+    if key == 'eng':
+        continue  # Skip English vs English
+    
+    col_name = f'tokens_{key}'
+    language_tokens_series = df[col_name]
+    
+    # Perform paired t-test
+    t_statistic, p_value = stats.ttest_rel(language_tokens_series, baseline_tokens_series)
+    
+    # Determine significance
+    if p_value < 0.001:
+        significance = "***"
+    elif p_value < 0.01:
+        significance = "**"
+    elif p_value < 0.05:
+        significance = "*"
+    else:
+        significance = "ns"
+    
+    ttest_results.append({
+        'Language': key,
+        'Group': 'HIC' if key in ['eng', 'deu', 'fra'] else 'LMIC',
+        'T-Statistic': round(t_statistic, 4),
+        'P-Value': f"{p_value:.2e}",
+        'Significance': significance,
+        'Mean_Diff': round(language_tokens_series.mean() - baseline_tokens_series.mean(), 2)
+    })
+
+ttest_df = pd.DataFrame(ttest_results)
+print(ttest_df.to_string(index=False))
+print("\nSignificance levels: *** p<0.001, ** p<0.01, * p<0.05, ns = not significant")
+print("Positive T-Statistic indicates more tokens than English")
